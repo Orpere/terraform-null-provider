@@ -1,4 +1,4 @@
-#terraform-null-provider -> repo that you can use to see how null provider work
+# Terraform-null-provider -> repo that you can use to see how null provider work
 
 ## how can I use this repository?
 
