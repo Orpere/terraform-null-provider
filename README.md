@@ -1,13 +1,12 @@
 # Terraform-null-provider -> repo that you can use to see how null provider work
 
-## how can I use this repository?
+## how can I use this repository`?`
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
 ## How can I use this repo`?`
 
 _Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
-
 
 ### 1 - clone repo terraform-null-provider
 
@@ -48,7 +47,7 @@ terraform apply
 
 - In this case should be
 
-```terraform 
+```terraform
 random_pet.example: Creating...
 random_pet.example: Creation complete after 0s [id=stirring-manatee]
 null_resource.example: Creating...
