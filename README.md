@@ -6,7 +6,10 @@ This repo has as dependencies a command line or shell git and terraform.You can 
 
 ## How can I use this repo`?`
 
-### Task - clone repo terraform-null-provider
+_Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
+
+
+### 1 - clone repo terraform-null-provider
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -15,15 +18,16 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:Orpere/terraform-null-provider.git
+git clone git@github.com:orpere/terraform-null-provider.git
 ```
 
-### Task - move to your repo folder
+### 2 - move to your repo folder
 
 ```bash
 cd terraform-null-provider
 ```
-## Task - terraform init
+
+## 3 - terraform init
 
 - this will retrieve all dependencies for terraform files
 
@@ -31,18 +35,16 @@ cd terraform-null-provider
 terraform init
 ```
 
-### Task - run terraform apply
+### 4 - run terraform apply
 
 ```terraform
 terraform apply
 ```
 
-- This step will prompt <<Do you want to perform these actions?>>
-  the answer should be **yes** 
-
- 
-
-### Task - check the result of the null provider
+- This step will prompt `<<`Do you want to perform these actions?`>>`
+  - the answer should be **yes**
+  
+### 5 - check the result of the null provider
 
 - In this case should be
 
@@ -58,7 +60,7 @@ null_resource.example: Creation complete after 0s [id=1994326005307348540]
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
-### Task - Terraform destroy
+### 6 - Terraform destroy
 
 ```terraform
 terraform destroy
