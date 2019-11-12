@@ -57,7 +57,7 @@ null_resource.example: Creation complete after 0s [id=1994326005307348540]
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
-### 6 - Terraform destroy
+### 6 - terraform destroy
 
 ```terraform
 terraform destroy
